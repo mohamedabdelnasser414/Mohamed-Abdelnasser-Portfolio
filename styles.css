@@ -7,7 +7,6 @@
 }
 body{
     font-family: 'Public Sans', sans-serif;
-    background-color: #F2F2F2;
     color: #33323D;
 }
 .container, .footer-wrapper{
@@ -109,6 +108,9 @@ nav{
     justify-content: center;  
     border-top: 1px solid rgba(51, 50, 61, 0.15)  ;
     border-bottom: 1px solid rgba(51, 50, 61, 0.15)  ;
+}
+.about-text a{
+   color: blue;
 }
 .profile-wrapper{
     align-self: center;
@@ -288,6 +290,9 @@ footer{
     }
     .btns{
         margin-bottom: 2rem;
+    }
+    .drum-kit{
+        order: -1;
     }
     .loopstudios{
         order: -1;
